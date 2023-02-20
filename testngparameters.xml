@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Sales Force" parallel="methods">
+	<listeners>
+        <listener class-name="salesForceUtility.testNGListenersSF"/>
+    </listeners>
+ 	<test name="Testing all 37 Sales Force Test cases">
+		<parameter name="URL" value="https://login.salesforce.com/"></parameter>
+		<parameter name="UID" value="***"></parameter>
+		<parameter name="PASS" value="***"></parameter>
+		 <packages>
+		 	<package name="salesForceLeti" />	 	
+		</packages>
+	</test>
+</suite>
+
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Sales Force]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="salesForceUtility.testNGListenersSF"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="Testing all 37 Sales Force Test cases(failed)">
+    <parameter name="UID" value="***"/>
+    <parameter name="PASS" value="***"/>
+    <parameter name="URL" value="https://login.salesforce.com/"/>
+    <classes>
+      <class name="salesForceLeti.tc29viewContact">
+        <methods>
+          <include name="setUpBeforeMethod"/>
+          <include name="endReportAfterTest"/>
+          <include name="closeDriver"/>
+          <include name="setUpBeforeTest"/>
+          <include name="viewContact"/>
+        </methods>
+      </class> <!-- salesForceLeti.tc29viewContact -->
+      <class name="salesForceLeti.tc12EditView">
+        <methods>
+          <include name="setUpBeforeMethod"/>
+          <include name="endReportAfterTest"/>
+          <include name="closeDriver"/>
+          <include name="setUpBeforeTest"/>
+          <include name="editView"/>
+        </methods>
+      </class> <!-- salesForceLeti.tc12EditView -->
+      <class name="salesForceLeti.tc34checkEditedLastnameUpdates">
+        <methods>
+          <include name="checkEditedLastnameUpdates"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="endReportAfterTest"/>
+          <include name="closeDriver"/>
+          <include name="setUpBeforeTest"/>
+        </methods>
+      </class> <!-- salesForceLeti.tc34checkEditedLastnameUpdates -->
+      <class name="salesForceLeti.tc6UserUploadPhoto">
+        <methods>
+          <include name="setUpBeforeMethod"/>
+          <include name="endReportAfterTest"/>
+          <include name="UserUploadPhoto"/>
+          <include name="closeDriver"/>
+          <include name="setUpBeforeTest"/>
+        </methods>
+      </class> <!-- salesForceLeti.tc6UserUploadPhoto -->
+      <class name="salesForceLeti.tc27checkRecentlyCreatedContacts">
+        <methods>
+          <include name="setUpBeforeMethod"/>
+          <include name="endReportAfterTest"/>
+          <include name="checkRecentlyCreatedContacts"/>
+          <include name="closeDriver"/>
+          <include name="setUpBeforeTest"/>
+        </methods>
+      </class> <!-- salesForceLeti.tc27checkRecentlyCreatedContacts -->
+      <class name="salesForceLeti.tc23todaysLeads">
+        <methods>
+          <include name="setUpBeforeMethod"/>
+          <include name="endReportAfterTest"/>
+          <include name="closeDriver"/>
+          <include name="setUpBeforeTest"/>
+          <include name="todaysLeads"/>
+        </methods>
+      </class> <!-- salesForceLeti.tc23todaysLeads -->
+    </classes>
+  </test> <!-- Testing all 37 Sales Force Test cases(failed) -->
+</suite> <!-- Failed suite [Sales Force] -->

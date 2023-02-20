@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-19T22:46:27 PST" name="Sales Force" finished-at="2023-02-19T22:47:15 PST" duration-ms="48222">
+    <groups>
+    </groups>
+    <test started-at="2023-02-19T22:46:27 PST" name="Testing all 37 Sales Force Test cases" finished-at="2023-02-19T22:47:15 PST" duration-ms="48222">
+      <class name="salesForceLeti.tc17OpportunityReport">
+        <test-method is-config="true" signature="setUpBeforeTest()[pri:0, instance:salesForceLeti.tc17OpportunityReport@28f2a10f]" started-at="2023-02-19T22:46:28 PST" name="setUpBeforeTest" finished-at="2023-02-19T22:46:29 PST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTest -->
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:salesForceLeti.tc17OpportunityReport@28f2a10f]" started-at="2023-02-19T22:46:29 PST" name="setUpBeforeMethod" finished-at="2023-02-19T22:46:33 PST" duration-ms="4297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void salesForceLeti.tc17OpportunityReport.OpportunityReport() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="OpportunityReport()[pri:0, instance:salesForceLeti.tc17OpportunityReport@28f2a10f]" started-at="2023-02-19T22:46:33 PST" name="OpportunityReport" finished-at="2023-02-19T22:46:53 PST" duration-ms="19389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpportunityReport -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:salesForceLeti.tc17OpportunityReport@28f2a10f]" started-at="2023-02-19T22:46:53 PST" name="closeDriver" finished-at="2023-02-19T22:46:53 PST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="endReportAfterTest()[pri:0, instance:salesForceLeti.tc17OpportunityReport@28f2a10f]" started-at="2023-02-19T22:47:14 PST" name="endReportAfterTest" finished-at="2023-02-19T22:47:15 PST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportAfterTest -->
+      </class> <!-- salesForceLeti.tc17OpportunityReport -->
+      <class name="salesForceLeti.tc18StuckedOpportunityReport">
+        <test-method is-config="true" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:salesForceLeti.tc18StuckedOpportunityReport@169e6180]" started-at="2023-02-19T22:46:53 PST" name="setUpBeforeMethod" finished-at="2023-02-19T22:46:55 PST" duration-ms="2135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void salesForceLeti.tc18StuckedOpportunityReport.StuckedOpportunityReport() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method signature="StuckedOpportunityReport()[pri:0, instance:salesForceLeti.tc18StuckedOpportunityReport@169e6180]" started-at="2023-02-19T22:46:55 PST" name="StuckedOpportunityReport" finished-at="2023-02-19T22:47:14 PST" duration-ms="18815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StuckedOpportunityReport -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:salesForceLeti.tc18StuckedOpportunityReport@169e6180]" started-at="2023-02-19T22:47:14 PST" name="closeDriver" finished-at="2023-02-19T22:47:14 PST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- salesForceLeti.tc18StuckedOpportunityReport -->
+    </test> <!-- Testing all 37 Sales Force Test cases -->
+  </suite> <!-- Sales Force -->
+</testng-results>

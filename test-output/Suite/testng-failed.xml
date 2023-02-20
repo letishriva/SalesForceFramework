@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test1(failed)">
+    <classes>
+      <class name="salesForceLeti.tc32checkSaveAndNewButtons">
+        <methods>
+          <include name="checkSaveAndNewButtons"/>
+        </methods>
+      </class> <!-- salesForceLeti.tc32checkSaveAndNewButtons -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="2" parallel="methods" name="Test2(failed)">
+    <classes>
+      <class name="salesForceLeti.tc31checkCancelButtonOfCreateView">
+        <methods>
+          <include name="checkCancelButtonOfCreateView"/>
+        </methods>
+      </class> <!-- salesForceLeti.tc31checkCancelButtonOfCreateView -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
